@@ -1,0 +1,39 @@
+{
+  "pages":[
+    "pages/home/home",
+    "pages/detail/detail",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/log/log"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#4DA7C1",
+    "navigationBarTitleText": "东软体检",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/home/home",
+      "text": "首页",
+      "iconPath": "images/home-2.png",
+      "selectedIconPath": "images/home.png"
+    }
+,
+  {
+    "pagePath": "pages/index/index",
+    "text": "商城",
+    "iconPath": "images/hospital-2.png",
+    "selectedIconPath": "images/hospital.png"
+  },
+  {
+    "pagePath": "pages/log/log",
+    "text": "我",
+    "iconPath": "images/user-2.png",
+    "selectedIconPath": "images/user.png"
+  }]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
+
